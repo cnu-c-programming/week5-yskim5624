@@ -5,9 +5,7 @@ void print_reverse(int *arr, int size) {
 
     while(p >= arr) {
         if(p == arr) printf("%d", *p);
-        else {
-            printf("%d ", *p);
-        }
+        else printf("%d ", *p);
         p--;
     }
 }
